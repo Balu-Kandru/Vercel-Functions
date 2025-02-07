@@ -13,11 +13,19 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to My API</h1>
+  <h1>Welcome to My APIs</h1>
   <p>Explore the available endpoints:</p>
   <ul>
-    <li><a href="/api/cors">/api/cors</a> - Enables CORS and sends a response with the API URL provided in the query parameter <code>apiUrl</code>.</li>
-
+    <li>
+      <a href="/api/cors?apiUrl=https://dummyjson.com/users" target="_blank">/api/cors</a> 
+      - Enables CORS and sends a response with the API URL provided in the query parameter <code>apiUrl</code>.
+      <br>
+      <strong>Note:</strong> If the URL contains query parameters, make sure to properly encode them.
+      <br>
+      Learn more about URL search parameters 
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams" target="_blank">here</a>.
+    </li>
+    
   </ul>
 </body>
 </html>
